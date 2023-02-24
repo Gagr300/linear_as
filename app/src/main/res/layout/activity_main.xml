@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvv_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="@color/material_dynamic_secondary90"
+        android:hint="@string/head" />
+
+    <ImageView
+        android:id="@+id/iv_0"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/cats" />
+
+    <TextView
+        android:id="@+id/tvv_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/smth_1" />
+
+    <ImageView
+        android:id="@+id/iv_1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/cats_1" />
+
+    <EditText
+        android:id="@+id/et_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/smth_0" />
+
+<androidx.constraintlayout.widget.ConstraintLayout
+android:id="@+id/conslayout"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+
+    <Button
+        android:id="@+id/btn_0"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/btn_0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/btn_1"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        android:backgroundTint="@color/material_dynamic_secondary70"
+        />
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/btn_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/btn_0"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        android:backgroundTint="@color/material_dynamic_secondary40"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

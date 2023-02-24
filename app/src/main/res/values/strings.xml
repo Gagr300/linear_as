@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My App 0.2</string>
+    <string name="head">HEAD</string>
+    <string name="smth_0">Type here smth</string>
+    <string name="smth_1">Text Text Text Text Text Text Text Text Text Text.
+Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text.
+Text Text Text Text Text Text Text Text.
+Text Text Text Text Text Text Text Text.
+Text Text Text Text Text Text Text Text Text.
+Text Text Text Text Text Text Text Text.</string>
+    <string name="btn_0">Just click here</string>
+    <string name="btn_1">or here</string>
+</resources>
